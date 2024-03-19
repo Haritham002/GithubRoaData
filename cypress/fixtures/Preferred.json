@@ -1,0 +1,21 @@
+{
+    "Name":{
+        "Alphabets":"Preferred",
+        "Numbers":"123456",
+        "SplChar":"@$#$%&^",
+        "Space":"Preferred tool"
+    },
+    "Notes":{
+        "Alphabets":"Note",
+        "Numbers":"123456",
+        "SplChar":"@$#$%&^",
+        "Space":"Note Test"
+    },
+    "Description":{
+        "Alphabets":"Description",
+        "Numbers":"123456",
+        "SplChar":"@$#$%&^",
+        "Space":"Description Test"
+    }
+    
+ }

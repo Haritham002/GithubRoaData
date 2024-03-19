@@ -1,0 +1,34 @@
+{
+    "textfield":{
+        "Alphabets":"test",
+        "Numbers":"123",
+        "SplChar":"!@#$",
+        "space":"456 test"
+    },
+    "steer":{
+        "Alphabets":"test",
+        "Numbers":"123",
+        "SplChar":"!@#$",
+        "space":"123 test"
+    },
+    "Trailor":{
+        "Alphabets":"test",
+        "Numbers":"123",
+        "SplChar":"!@#$",
+        "space":"456 test"
+    },
+    "Driver":{
+        "Alphabets":"test",
+        "Numbers":"123",
+        "SplChar":"!@#$",
+        "space":"456 test"
+    },
+    "Vehicle":{
+        "Alphabets":"test",
+        "Numbers":"123",
+        "SplChar":"!@#$",
+        "space":"456 test"
+    }
+ }
+
+   

@@ -1,0 +1,59 @@
+{
+    "description":{
+        "Alphabets":"Restriction",
+        "Numbers":"1234567",
+        "SplChar":"!@#$%^&*()_+",
+        "space":" Restrict Route"
+    },
+    "Notes":{
+        "Alphabets":"Notes",
+        "Numbers":"1234567",
+        "SplChar":"!@#$%^&*()_+",
+        "space":" Notes for Restriction"
+
+    },
+    "HeightRes":{
+        "Alphabets":"HeightRes",
+        "SplChar":"!@#$%^&*()_+",
+        "space":"1 2 ",
+        "Numbers":"1234567"
+    },
+    "Width":{
+        "Alphabets":"WidthRestriction",
+        "SplChar":"!@#$%^&*()_+",
+        "space":"1 2 ",
+        "Numbers":"1234567"
+    },
+    "steer":{
+        "Alphabets":"SteerAxle",
+        "SplChar":"!@#$%^&*()_+",
+        "space":"1  2 ",
+        "Numbers":"1234567"
+    },
+    "Drive":{
+        "Alphabets":"DriveAxle",
+        "SplChar":"!@#$%^&*()_+",
+        "space":"1  2 ",
+        "Numbers":"1234567"
+    },
+    "Trailer":{
+        "Alphabets":"TrailerAxle",
+        "SplChar":"!@#$%^&*()_+",
+        "space":"1  2 ",
+        "Numbers":"1234567"
+    },
+    "Gross":{
+        "Alphabets":"GrossWeight",
+        "SplChar":"!@#$%^&*()_+",
+        "space":"1  2 ",
+        "Numbers":"1234567"
+    }
+    
+  }
+
+
+
+   
+   
+    
+
