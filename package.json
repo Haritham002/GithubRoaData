@@ -1,0 +1,32 @@
+{
+  "name": "roadata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test1": "npx cypress run --spec cypress\\e2e\\RoaDataLogin.cy.js",
+    "browser:chrome":"npx cypress run --browser=electron --headed --spec cypress/e2e/ParallelRun.cy.js --reporter mocha-allure-reporter",
+    "report:allure":"allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  
+    "allure-commandline": "^2.27.0",
+    "cypress": "^13.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.6.1",
+    "cypress-multi-reporters": "^1.6.4",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-slow-down": "^1.3.1",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.2.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.0.1"
+  }
+}
