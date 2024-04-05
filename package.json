@@ -7,14 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "test1": "npx cypress run --spec cypress\\e2e\\RoaDataLogin.cy.js",
     "ParallelRun":"npx cypress run --spec cypress\\e2e\\ParallelRun.cy.js",
-    // "browser:chrome":"npx cypress run --browser=electron --headed --spec cypress/e2e/ParallelRun.cy.js --reporter mocha-allure-reporter",
-   // "report:allure":"allure generate allure-results --clean -o allure-report && allure open allure-report"
+    "browser:chrome":"npx cypress run --browser=electron --headed --spec cypress\\e2e\\RoaDataLogin.cy.js --reporter mocha-allure-reporter",
+   "report:allure":"allure generate allure-results --clean -o allure-report && allure open allure-report"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
   
-    //"allure-commandline": "^2.27.0",
+    "allure-commandline": "^2.27.0",
     "cypress": "^13.3.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-iframe": "^1.0.1",
